@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "election-audits"
+version = "0.1.0"
+description = "CPU election auditing"
+authors = ["Max Fan <theinnovativeinventor@gmail.com>"]
+license = "Unlicense"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+argon2-cffi = "^20.1.0"
+
+[tool.poetry.dev-dependencies]
+python3-vote-core = "^20170329.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
